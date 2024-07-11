@@ -1,0 +1,8 @@
+{
+  "name": "node-lambda-sample",
+  "version": "1.0.0",
+  "dependencies": {
+    "env-var": "7.5.0"
+  }
+}
+  

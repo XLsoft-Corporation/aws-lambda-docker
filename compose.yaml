@@ -1,0 +1,7 @@
+services:
+  function-sample:
+    container_name: my-node
+    build:
+      context: .
+    ports:
+      - 8080:8080
