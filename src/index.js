@@ -1,6 +1,7 @@
-const env = require('env-var');
-const NAME = env.get('NAME').required().asString();
 exports.handler = async (event) => {
-        
-    return `It's me, ${NAME}!`;
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello from Lambda!'),
+    };
+    return response;
 };
